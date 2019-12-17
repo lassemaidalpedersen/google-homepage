@@ -39,12 +39,17 @@ body {
 #search input[type=submit] {
     margin-top: 30px;
     padding: 10px;
-    border: none;
+    border: 1px solid #EEE;
     border-radius: 5px;
     background-color: #EEE;
     color: #555;
     font-size: 0.9em;
     
+}
+
+#search input[type="submit"]:hover {
+    border: 1px solid #AAA;
+    color: black;
 }
 
 /* Text input icon */

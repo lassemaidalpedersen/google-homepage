@@ -1,0 +1,69 @@
+/* General styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+/* Logo */
+
+#logo {
+    width: 250px;
+    margin-top: 50px;
+}
+
+/* Search form */
+
+#search {
+    width: 450px;
+    margin: 25px auto 0;
+}
+
+#search input[type=text] {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #DDD;
+    border-radius: 2em;
+
+}
+
+#search input[type=text]:hover,
+#search input[type="text"]:focus {
+    box-shadow: 0 0 3px 0 #CCC;
+}
+
+#search input[type=submit] {
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #EEE;
+    color: #555;
+    font-size: 0.9em;
+    
+}
+
+/* Text input icon */
+
+#search input[name="query"] {
+    padding-left: 3em;
+    background: no-repeat 1em center / 1em url(../images/magnifying-glass.png),
+                no-repeat right 1em center / 2em url(../images/keyboard-icon.png);
+    /*
+    background-image: url(../images/magnifying-glass.png);
+    background-repeat: no-repeat;
+    background-size: 1em;
+    background-position: 1em center;
+    */
+}
+
+/* Language reminder */
+
+#language-reminder {
+    margin-top: 25px;
+    font-size: 0.8em;
+}

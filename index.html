@@ -5,14 +5,26 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <img id="logo" src="images/google-logo.png" alt="Google logo">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Billeder</a></li>
+                    <li><a href="#"><img src="images/apps-icon.png" alt="Apps"></a></li>
+                    <li><a href="#" id="log-in">Log ind</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <img id="logo" src="images/google-logo.png" alt="Google logo">
 
-        <form id="search" action="search" method="GET">
-            <input type="text" name="query">
-            <input type="submit" value="Google search">
-            <input type="submit" value="I'm feeling lucky">
-        </form>
+            <form id="search" action="search" method="GET">
+                <input type="text" name="query">
+                <input type="submit" value="Google-søgning">
+                <input type="submit" value="Jeg prøver lykken">
+            </form>
 
-        <p id="language-reminder">Google is available in: <a href="#">Danish</a></p>
+            <p id="language-reminder">Google er tilgængeligt på: <a href="#">Føroyskt</a></p>
+        </main>
     </body>
 </html>

@@ -1,4 +1,4 @@
-/* General styles */
+/* General */
 
 * {
     box-sizing: border-box;
@@ -8,11 +8,45 @@ body {
     text-align: center;
 }
 
+main {
+    margin-top: 8em;
+}
+
+/* Navigation */
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 1em;
+    vertical-align: middle;
+}
+
+nav a {
+    color: black;
+    font-size: 0.7em;
+    text-decoration: none;
+}
+
+#log-in {
+    padding: 0.5em 1em;
+    border-radius: 3px;
+    font-size: 0.8em;
+    color: white;
+    background-color: rgb(74, 137, 255);
+}
+
+nav img {
+    width: 2em;
+}
+
 /* Logo */
 
 #logo {
     width: 250px;
-    margin-top: 50px;
 }
 
 /* Search form */
@@ -71,4 +105,12 @@ body {
 #language-reminder {
     margin-top: 25px;
     font-size: 0.8em;
+}
+
+#language-reminder a {
+    text-decoration: none;
+}
+
+#language-reminder a:hover {
+    text-decoration: underline;
 }
